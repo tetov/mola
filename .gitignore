@@ -118,3 +118,5 @@ Icon
 .vimrc
 
 html/
+
+mola/_version.py
