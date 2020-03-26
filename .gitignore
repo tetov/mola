@@ -113,3 +113,8 @@ Icon
 
 # vs code stuff
 .vscode
+
+# vim stuff
+.vimrc
+
+html/
