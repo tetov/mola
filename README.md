@@ -3,6 +3,8 @@
 # Mola
 Lightweight Computational Design Library
 
+Fork from dbt-ethz/mola to make package pip installable.
+
 ## Modules
 - core_vertex
   - class definition for `Vertex`
