@@ -5,6 +5,26 @@ Lightweight Computational Design Library
 
 Fork from dbt-ethz/mola to make package pip installable.
 
+## Installation instructions (Rhino)
+
+### Editable
+
+```bash
+conda activate mast2-p2
+git clone https://github.com/tetov/mola
+cd mola
+pip install -e .
+python -m compas_rhino.install -p mola
+```
+
+### Not editable
+
+```bash
+conda activate mast2-p2
+pip install git+https://github.com/tetov/mola
+python -m compas_rhino.install -p mola
+```
+
 ## Modules
 - core_vertex
   - class definition for `Vertex`
