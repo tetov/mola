@@ -116,3 +116,6 @@ Icon
 
 # vim stuff
 .vimrc
+
+# pdoc3
+html/

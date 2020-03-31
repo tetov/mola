@@ -5,7 +5,11 @@ __copyright__  = 'Copyright 2019 / Digital Building Technologies DBT / ETH Zuric
 __license__    = 'MIT License'
 __email__      = ['<dbt@arch.ethz.ch>']
 
-import rhinoscriptsyntax as rs
+try:
+    import rhinoscriptsyntax as rs
+except ImportError:
+    pass
+
 from mola.core_mesh import Mesh
 from mola.core_vertex import Vertex
 from mola.core_face import Face
